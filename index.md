@@ -15,7 +15,16 @@ Remove iframe
 
 New video
 
-<video src="Video/Test.mp4" width="320" height="200" autoplay loop preload></video>
+<video id="myVideo" src="Video/TestWithSound.mp4" width="320" height="200" autoplay loop preload></video>
+
+<button onclick="toggleMute()" type="button">Mute sound</button>
+<script>
+var vid = document.getElementById("myVideo");
+
+function toggleMute() { 
+    vid.muted = !vid.muted;
+}
+</script>
 
 And another new video
 
