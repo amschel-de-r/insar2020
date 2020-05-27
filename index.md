@@ -1,8 +1,8 @@
-## Example Video
+## Example Videos
 
-Remove iframe
+Autoplay silent video
 
-<video autoplay muted loop width="250">
+<video autoplay muted loop width="320">
 
     <source src="Video/Test.webm"
             type="video/webm">
@@ -13,7 +13,7 @@ Remove iframe
     Sorry, your browser doesn't support embedded videos.
 </video>
 
-New video
+Video that can be muted
 
 <video id="myVideo" src="TestWithSound.mp4" width="320" height="200" autoplay controls muted loop preload></video>
 
@@ -25,9 +25,5 @@ function toggleMute() {
     vid.muted = !vid.muted;
 }
 </script>
-
-And another new video
-
-<video src="Test.mp4" width="320" height="200" autoplay muted loop preload></video>
 
 ## Example Game
