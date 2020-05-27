@@ -2,7 +2,7 @@
 
 Remove iframe
 
-<video autoplay loop width="250">
+<video autoplay muted loop width="250">
 
     <source src="Video/Test.webm"
             type="video/webm">
@@ -15,10 +15,10 @@ Remove iframe
 
 New video
 
-<video id="myVideo" src="TestWithSound.mp4" width="320" height="200" controls muted loop preload></video>
+<video id="myVideo" src="TestWithSound.mp4" width="320" height="200" autoplay controls muted loop preload></video>
 
 And another new video
 
-<video src="Test.mp4" width="320" height="200" autoplay loop preload></video>
+<video src="Test.mp4" width="320" height="200" autoplay muted loop preload></video>
 
 ## Example Game
