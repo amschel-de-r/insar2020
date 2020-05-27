@@ -18,10 +18,10 @@ New video
 <video id="myVideo" src="Video/TestWithSound.mp4" width="320" height="200" autoplay loop preload></video>
 
 <button onclick="toggleMute()" type="button">Mute sound</button>
-<script>
-var vid = document.getElementById("myVideo");
 
+<script>
 function toggleMute() { 
+    var vid = document.getElementById("myVideo");
     vid.muted = !vid.muted;
 }
 </script>
