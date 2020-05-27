@@ -15,7 +15,7 @@ Remove iframe
 
 New video
 
-<video id="myVideo" src="Video/TestWithSound.mp4" width="320" height="200" autoplay loop preload></video>
+<video id="myVideo" src="TestWithSound.mp4" width="320" height="200" autoplay loop preload></video>
 
 And another new video
 
