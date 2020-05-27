@@ -28,4 +28,4 @@ function toggleMute() {
 
 ## Example Game
 
-<iframe src="Bubbles/index.html" style="width:750px; height:500px">
+<iframe src="Bubbles/index.html" style="width:960px; height:600px">
