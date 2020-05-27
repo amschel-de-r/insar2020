@@ -15,4 +15,8 @@ Re-include iframe
     Sorry, your browser doesn't support embedded videos.
 </video>
 
+New video
+
+<video src="/Video/Test.mp4" width="320" height="200" controls preload></video>
+
 ## Example Game
