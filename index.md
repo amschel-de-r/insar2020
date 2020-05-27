@@ -4,7 +4,7 @@
 
 Re-include iframe
 
-<video controls width="250">
+<video autoplay loop width="250">
 
     <source src="Video/Test.webm"
             type="video/webm">
@@ -17,10 +17,10 @@ Re-include iframe
 
 New video
 
-<video src="Video/Test.mp4" width="320" height="200" controls preload></video>
+<video src="Video/Test.mp4" width="320" height="200" autoplay loop preload></video>
 
 And another new video
 
-<video src="Test.mp4" width="320" height="200" controls preload></video>
+<video src="Test.mp4" width="320" height="200" autoplay loop preload></video>
 
 ## Example Game
