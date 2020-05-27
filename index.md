@@ -17,6 +17,15 @@ New video
 
 <video id="myVideo" src="TestWithSound.mp4" width="320" height="200" autoplay controls muted loop preload></video>
 
+<button onclick="toggleMute()" type="button">Mute sound</button>
+
+<script>
+function toggleMute() { 
+    var vid = document.getElementById("myVideo");
+    vid.muted = !vid.muted;
+}
+</script>
+
 And another new video
 
 <video src="Test.mp4" width="320" height="200" autoplay muted loop preload></video>
