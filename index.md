@@ -2,7 +2,7 @@
 
 <iframe width="420" height="315" src="/Video/Test.mov" frameborder="0" allowfullscreen></iframe>
 
-Test divider
+Text to indicate successful commit
 
 <video controls width="500">
 
