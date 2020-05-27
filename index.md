@@ -1,9 +1,9 @@
 ## Example Video
 
 
-<video controls width="250">
+<video controls width="500">
 
-    <source src="/Video/Screen\ Recording\ 2020-05-26\ at\ 14.59.43.mov"
+    <source src="/Video/Test.mov"
             type="video/mov">
 
     Sorry, your browser doesn't support embedded videos.
