@@ -1,8 +1,6 @@
 ## Example Video
 
-<iframe width="420" height="315" src="Video/Test.webm" frameborder="0" allowfullscreen></iframe>
-
-Re-include iframe
+Remove iframe
 
 <video autoplay loop width="250">
 
