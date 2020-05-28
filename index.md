@@ -20,6 +20,7 @@ Video that can be muted
 <button onclick="toggleMute()" type="button">Mute sound</button>
 
 <script>
+var vid = document.getElementById("myVideo");
 function toggleMute() { 
     var vid = document.getElementById("myVideo");
     vid.muted = !vid.muted;
