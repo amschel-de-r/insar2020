@@ -20,7 +20,7 @@ Videos that can be muted
     <video id="myVideo" src="TestWithSound.mp4" width="320" height="200" autoplay muted loop preload></video>
   </div>
   <div class="column">
-    <img src="volumeOff.png" controlledVideoId="myVideo" onclick="toogleMute()">
+    <img src="volumeOff.png" controlledVideoId="myVideo" onclick="toggleMute()">
   </div>
 </div>
 
@@ -29,7 +29,7 @@ Videos that can be muted
     <video id="myVideo2" src="TestWithSound.mp4" width="320" height="200" autoplay muted loop preload></video>
   </div>
   <div class="column">
-    <img src="volumeOff.png" controlledVideoId="myVideo2" onclick="toogleMute()">
+    <img src="volumeOff.png" controlledVideoId="myVideo2" onclick="toggleMute()">
   </div>
 </div>
 
