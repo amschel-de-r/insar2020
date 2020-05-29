@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Tasks Table"
 permalink: /taskTable/
 ---
