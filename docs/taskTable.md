@@ -1,6 +1,8 @@
+---
 layout: page
 title: "Tasks Table"
-permalink: /tasksTable/
+permalink: /taskTable/
+---
 
 <div class="flex-grid">
   <div class="col">Busy bee</div>
