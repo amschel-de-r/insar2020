@@ -10,7 +10,16 @@ permalink: /taskTable/
     <img src="../volumeOff.png" controlledVideoId="myVideo2" z-index="3000" position="absolute" onclick="toggleMute(this)">
     <video id="myVideo2" src="../TestWithSound.mp4" width="320" height="200" position="absolute" autoplay muted loop preload></video>
   </div>
-  <div class="col">What does pip want</div>
+  <div class="col">
+    <div id="container">
+    <div id="navi">
+      <video id="myVideo" src="../TestWithSound.mp4" width="320" height="200" position="absolute" autoplay muted loop preload>
+    </div>
+    <div id="infoi">
+      <img src="../volumeOff.png" controlledVideoId="myVideo" z-index="3000" position="absolute" onclick="toggleMute(this)">
+    </div>
+</div>
+  </div>
 </div>
 <div class="flex-grid">
   <div class="col">FB</div>
