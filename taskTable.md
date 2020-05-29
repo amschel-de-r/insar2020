@@ -6,9 +6,8 @@ permalink: /taskTable/
 # I am a test title
 
 <div class="flex-grid">
-  <div class="col" position="relative">
-    <img src="../volumeOff.png" controlledVideoId="myVideo2" z-index="3000" position="absolute" onclick="toggleMute(this)">
-    <video id="myVideo2" src="../TestWithSound.mp4" position="absolute" autoplay muted loop preload></video>
+  <div class="col">
+    <video id="myVideo2" src="../TestWithSound.mp4" autoplay muted loop preload></video>
   </div>
   <div class="col">
     <div id="container">
