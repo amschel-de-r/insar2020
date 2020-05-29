@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 ## Example Videos
 
 Autoplay silent video
