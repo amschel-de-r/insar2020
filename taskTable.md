@@ -6,7 +6,10 @@ permalink: /taskTable/
 # I am a test title
 
 <div class="flex-grid">
-  <div class="col">Busy bee</div>
+  <div class="col">
+    <video id="myVideo2" src="TestWithSound.mp4" width="320" height="200" autoplay muted loop preload></video>
+    <img src="volumeOff.png" controlledVideoId="myVideo2" onclick="toggleMute(this)">
+  </div>
   <div class="col">What does pip want</div>
 </div>
 <div class="flex-grid">
@@ -33,3 +36,13 @@ permalink: /taskTable/
   <div class="col">Kittens</div>
   <div class="col">Birds</div>
 </div>
+
+<script>
+var vid = document.getElementById("myVideo");
+function toggleMute(el) { 
+    var vidId = el.getAttribute('controlledVideoId');
+    var vid = document.getElementById(vidId);
+    vid.muted = !vid.muted;
+    el.src = vid.muted ? "volumeOff.png" : "volumeOn.png";
+}
+</script>
