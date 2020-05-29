@@ -7,8 +7,8 @@ permalink: /taskTable/
 
 <div class="flex-grid">
   <div class="col">
+    <img src="../volumeOff.png" controlledVideoId="myVideo2" z-index="3000" position="absolute" onclick="toggleMute(this)">
     <video id="myVideo2" src="../TestWithSound.mp4" width="320" height="200" autoplay muted loop preload></video>
-    <img src="../volumeOff.png" controlledVideoId="myVideo2" onclick="toggleMute(this)">
   </div>
   <div class="col">What does pip want</div>
 </div>
