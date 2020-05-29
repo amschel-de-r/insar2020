@@ -13,10 +13,10 @@ permalink: /taskTable/
   <div class="col">
     <div id="container">
     <div id="navi">
-      <video id="myVideo" src="../TestWithSound.mp4" width="320" height="200" position="absolute" autoplay muted loop preload>
+      <video id="myVideo" src="../TestWithSound.mp4" width="320" height="200" autoplay muted loop preload></video>
     </div>
     <div id="infoi">
-      <img src="../volumeOff.png" controlledVideoId="myVideo" z-index="3000" position="absolute" onclick="toggleMute(this)">
+      <img src="../volumeOff.png" controlledVideoId="myVideo" onclick="toggleMute(this)">
     </div>
 </div>
   </div>
