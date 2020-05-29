@@ -7,8 +7,8 @@ permalink: /taskTable/
 
 <div class="flex-grid">
   <div class="col">
-    <video id="myVideo2" src="TestWithSound.mp4" width="320" height="200" autoplay muted loop preload></video>
-    <img src="volumeOff.png" controlledVideoId="myVideo2" onclick="toggleMute(this)">
+    <video id="myVideo2" src="../TestWithSound.mp4" width="320" height="200" autoplay muted loop preload></video>
+    <img src="../volumeOff.png" controlledVideoId="myVideo2" onclick="toggleMute(this)">
   </div>
   <div class="col">What does pip want</div>
 </div>
@@ -43,6 +43,6 @@ function toggleMute(el) {
     var vidId = el.getAttribute('controlledVideoId');
     var vid = document.getElementById(vidId);
     vid.muted = !vid.muted;
-    el.src = vid.muted ? "volumeOff.png" : "volumeOn.png";
+    el.src = vid.muted ? "../volumeOff.png" : "../volumeOn.png";
 }
 </script>
