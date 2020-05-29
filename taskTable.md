@@ -8,12 +8,12 @@ permalink: /taskTable/
 <div class="flex-grid">
   <div class="col" position="relative">
     <img src="../volumeOff.png" controlledVideoId="myVideo2" z-index="3000" position="absolute" onclick="toggleMute(this)">
-    <video id="myVideo2" src="../TestWithSound.mp4" width="320" height="200" position="absolute" autoplay muted loop preload></video>
+    <video id="myVideo2" src="../TestWithSound.mp4" position="absolute" autoplay muted loop preload></video>
   </div>
   <div class="col">
     <div id="container">
     <div id="navi">
-      <video id="myVideo" src="../TestWithSound.mp4" width="320" height="200" autoplay muted loop preload></video>
+      <video id="myVideo" src="../TestWithSound.mp4" autoplay muted loop preload></video>
     </div>
     <div id="infoi">
       <img src="../volumeOff.png" controlledVideoId="myVideo" onclick="toggleMute(this)">
