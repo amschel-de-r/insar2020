@@ -5,10 +5,10 @@ permalink: /taskTable/
 
 # I am a test title
 
-<div class="flex-grid">
-  <div class="col">
+<div class="flex-grid">'
+  <div class="col" position="relative">
     <img src="../volumeOff.png" controlledVideoId="myVideo2" z-index="3000" position="absolute" onclick="toggleMute(this)">
-    <video id="myVideo2" src="../TestWithSound.mp4" width="320" height="200" autoplay muted loop preload></video>
+    <video id="myVideo2" src="../TestWithSound.mp4" width="320" height="200" position="absolute" autoplay muted loop preload></video>
   </div>
   <div class="col">What does pip want</div>
 </div>
