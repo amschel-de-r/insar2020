@@ -10,19 +10,17 @@ permalink: /taskTable/
     <video id="myVideo2" src="../TestWithSound.mp4" autoplay muted loop preload></video>
   </div>
   <div class="col">
-    <div id="container">
-    <div id="navi">
-      <video id="myVideo" src="../TestWithSound.mp4" autoplay muted loop preload></video>
-    </div>
-    <div id="infoi">
-      <img src="../volumeOff.png" controlledVideoId="myVideo" onclick="toggleMute(this)">
-    </div>
-</div>
+    <video id="myVideo" src="../TestWithSound.mp4" autoplay muted loop preload></video>
+    <img class="muteButton" src="../volumeOff.png" controlledVideoId="myVideo" onclick="toggleMute(this)">
   </div>
 </div>
 <div class="flex-grid">
-  <div class="col">FB</div>
-  <div class="col">FBW</div>
+  <div class="col">FB
+    <video id="myVideo2" src="../TestWithSound.mp4" autoplay muted loop preload></video>
+  </div>
+  <div class="col">FBW
+    <video id="myVideo2" src="../TestWithSound.mp4" autoplay muted loop preload></video>
+  </div>
 </div>
 <div class="flex-grid">
   <div class="col">RL</div>
