@@ -19,12 +19,14 @@ permalink: /taskTable/
   </div>
 </div>
 <div class="flex-grid">
-  <div class="col">FB
+  <div class="col">
+    <div>FB</div>
     <div class="container">
       <video id="myVideo2" src="../TestWithSound.mp4" autoplay muted loop preload></video>
     </div>
   </div>
-  <div class="col">FBW
+  <div class="col">
+    <div>FBW</div>
     <div class="container">
       <video id="myVideo2" src="../TestWithSound.mp4" autoplay muted loop preload></video>
     </div>
