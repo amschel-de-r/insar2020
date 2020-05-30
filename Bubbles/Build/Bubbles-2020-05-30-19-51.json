@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Example GoNogo",
+"productVersion": "0.1",
+"dataUrl": "Bubbles-2020-05-30-19-51.data.unityweb",
+"wasmCodeUrl": "Bubbles-2020-05-30-19-51.wasm.code.unityweb",
+"wasmFrameworkUrl": "Bubbles-2020-05-30-19-51.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": true,
+"multithreading": false,
+"unityVersion": "2019.2.0f1"
+}
