@@ -8,12 +8,16 @@ permalink: /taskTable/
 <div class="flex-grid">
   <div class="col">
     <div class="container">
-      <video id="myVideo2" src="../TestWithSound.mp4" autoplay muted loop preload></video>
+      <div class="videoContainer">
+        <video id="myVideo2" src="../TestWithSound.mp4" autoplay muted loop preload></video>
+      </div>
     </div>
   </div>
   <div class="col">
     <div class="container">
-      <video id="myVideo" src="../TestWithSound.mp4" autoplay muted loop preload></video>
+      <div class="videoContainer">
+        <video id="myVideo" src="../TestWithSound.mp4" autoplay muted loop preload></video>
+      </div>
       <img class="muteButton" src="../volumeOff.png" controlledVideoId="myVideo" onclick="toggleMute(this)">
     </div>
   </div>
@@ -22,13 +26,17 @@ permalink: /taskTable/
   <div class="col">
     <div>FB</div>
     <div class="container">
-      <video id="myVideo2" src="../TestWithSound.mp4" autoplay muted loop preload></video>
+      <div class="videoContainer">
+        <video id="myVideo2" src="../TestWithSound.mp4" autoplay muted loop preload></video>
+      </div>
     </div>
   </div>
   <div class="col">
     <div>FBW</div>
     <div class="container">
-      <video id="myVideo2" src="../TestWithSound.mp4" autoplay muted loop preload></video>
+      <div class="videoContainer">
+        <video id="myVideo2" src="../TestWithSound.mp4" autoplay muted loop preload></video>
+      </div>
     </div>
   </div>
 </div>
