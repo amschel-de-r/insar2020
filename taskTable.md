@@ -7,9 +7,11 @@ permalink: /taskTable/
 
 <div class="flex-grid">
   <div class="col">
+    <div>First video</div>
     <video id="myVideo2" src="../TestWithSound.mp4" autoplay muted loop preload></video>
   </div>
   <div class="col">
+    <div>Second video</div>
     <div class="container">
     <div class="navi">
       <video id="myVideo" src="../TestWithSound.mp4" autoplay muted loop preload></video>
