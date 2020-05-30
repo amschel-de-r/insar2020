@@ -6,20 +6,22 @@
 video {
   width: 100%;
   height: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
-.videoContainer {
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  float: right;
+}
+.navi {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
 }
-
-.muteButton {
+.infoi {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -55,6 +57,9 @@ video {
   }
 }
 
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -64,11 +69,7 @@ body {
 .flex-grid { 
   margin: 0 0 20px 0;
 }
-.container {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  float: right;
+.col {
   background: salmon;
   padding: 20px;
 }
