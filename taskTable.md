@@ -7,38 +7,22 @@ permalink: /taskTable/
 
 <div class="flex-grid">
   <div class="col">
-    <div class="container">
-      <div class="videoContainer">
-        <video id="myVideo2" src="../TestWithSound.mp4" autoplay muted loop preload></video>
-      </div>
-    </div>
+    <video id="myVideo2" src="../TestWithSound.mp4" autoplay muted loop preload></video>
   </div>
   <div class="col">
     <div class="container">
-      <div class="videoContainer">
-        <video id="myVideo" src="../TestWithSound.mp4" autoplay muted loop preload></video>
-      </div>
-      <img class="muteButton" src="../volumeOff.png" controlledVideoId="myVideo" onclick="toggleMute(this)">
+    <div class="navi">
+      <video id="myVideo" src="../TestWithSound.mp4" autoplay muted loop preload></video>
     </div>
+    <div class="infoi">
+      <img src="../volumeOff.png" controlledVideoId="myVideo" onclick="toggleMute(this)">
+    </div>
+</div>
   </div>
 </div>
 <div class="flex-grid">
-  <div class="col">
-    <div>FB</div>
-    <div class="container">
-      <div class="videoContainer">
-        <video id="myVideo2" src="../TestWithSound.mp4" autoplay muted loop preload></video>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div>FBW</div>
-    <div class="container">
-      <div class="videoContainer">
-        <video id="myVideo2" src="../TestWithSound.mp4" autoplay muted loop preload></video>
-      </div>
-    </div>
-  </div>
+  <div class="col">FB</div>
+  <div class="col">FBW</div>
 </div>
 <div class="flex-grid">
   <div class="col">RL</div>
@@ -60,6 +44,7 @@ permalink: /taskTable/
   <div class="col">Kittens</div>
   <div class="col">Birds</div>
 </div>
+
 
 <script>
 var vid = document.getElementById("myVideo");
