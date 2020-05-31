@@ -92,7 +92,7 @@ permalink: /taskTable/
     </div>
   </div>
   <div class="FlexContainerCol">
-    <h3>Visual Decision-Making Under Uncertainty</h3>
+    <h3>Decision-Making Under Uncertainty</h3>
     <div class="FlexContainer">
       <video id="MC" src="../Video/MC.mp4" autoplay muted loop preload></video>
     </div>
@@ -106,7 +106,7 @@ permalink: /taskTable/
     </div>
   </div>
   <div class="FlexContainerCol">
-    <h3>Birds</32>
+    <h3>Birds</3>
     <div class="FlexContainer">
       <video id="EDP" src="../Test.mp4" autoplay muted loop preload></video>
     </div>
