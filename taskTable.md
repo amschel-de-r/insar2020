@@ -18,11 +18,11 @@ permalink: /taskTable/
 <div class="flex-grid">
   <div class="col">
     <h2>False Belief</h2>
-    <video id="FB" src="../Test.mp4" autoplay muted loop preload></video>
+    <video id="FB" src="../Video/FB.mp4" controls preload></video>
   </div>
   <div class="col">
     <h2>False Belief Word Learning</h2>
-    <video id="FBW" src="../Test.mp4" autoplay muted loop preload></video>
+    <video id="FBW" src="../Video/FBW.mp4" controls preload></video>
   </div>
 </div>
 <div class="flex-grid">
@@ -39,7 +39,7 @@ permalink: /taskTable/
   </div>
   <div class="col">
     <h2>Social Reinforcement Learning</h2>
-    <video id="RLS" src="../Test.mp4" autoplay muted loop preload></video>
+    <video id="RLS" src="../Video/RLS.mp4" autoplay muted loop preload></video>
   </div>
 </div>
 <div class="flex-grid">
