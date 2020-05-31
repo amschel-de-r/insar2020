@@ -7,30 +7,6 @@ permalink: /taskTable/
 
 <div class="flex-grid">
   <div class="col">
-    <h2>Inhibitory Control</h2>
-    <div class="container">
-      <div class="navi">
-        <video id="RL" src="../Video/RL.mp4" autoplay muted loop preload></video>
-      </div>
-      <div class="infoi">
-        <img src="../volumeOff.png" controlledVideoId="RL" onclick="toggleMute(this)">
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <h2>Sustained Attention</h2>
-    <div class="container">
-      <div class="navi">
-        <video id="RL" src="../Video/RL.mp4" autoplay muted loop preload></video>
-      </div>
-      <div class="infoi">
-        <img src="../volumeOff.png" controlledVideoId="RL" onclick="toggleMute(this)">
-      </div>
-    </div>
-  </div>
-</div>
-<div class="flex-grid">
-  <div class="col">
     <h2>Gaze Following</h2>
     <video id="GDP" src="../Video/GDP.mp4" autoplay muted loop preload></video>
   </div>
@@ -81,7 +57,7 @@ permalink: /taskTable/
     <h2>Inhibitory Control</h2>
     <div class="container">
       <div class="navi">
-        <video id="RL" src="../Video/RL.mp4" autoplay muted loop preload></video>
+        <video id="GNG" src="../Video/GNG.mp4" autoplay muted loop preload></video>
       </div>
       <div class="infoi">
         <img src="../volumeOff.png" controlledVideoId="RL" onclick="toggleMute(this)">
@@ -92,22 +68,12 @@ permalink: /taskTable/
     <h2>Sustained Attention</h2>
     <div class="container">
       <div class="navi">
-        <video id="RL" src="../Video/RL.mp4" autoplay muted loop preload></video>
+        <video id="SA" src="../Video/SA.mp4" autoplay muted loop preload></video>
       </div>
       <div class="infoi">
         <img src="../volumeOff.png" controlledVideoId="RL" onclick="toggleMute(this)">
       </div>
     </div>
-  </div>
-</div>
-<div class="flex-grid">
-  <div class="col">
-    <h2>Gaze Following</h2>
-    <video id="GDP" src="../Video/GDP.mp4" autoplay muted loop preload></video>
-  </div>
-  <div class="col">
-    <h2>Inferring Desire</h2>
-    <video id="UD" src="../Video/UD.mp4" autoplay muted loop preload></video>
   </div>
 </div>
 <div class="flex-grid">
