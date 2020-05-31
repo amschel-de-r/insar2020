@@ -57,10 +57,10 @@ permalink: /taskTable/
     <h2>Inhibitory Control</h2>
     <div class="container">
       <div class="navi">
-        <video id="GNG" src="../Video/GNG.mp4" autoplay muted loop preload></video>
+        <video id="RL" src="../Video/RL.mp4" autoplay muted loop preload></video>
       </div>
       <div class="infoi">
-        <img src="../volumeOff.png" controlledVideoId="GNG" onclick="toggleMute(this)">
+        <img src="../volumeOff.png" controlledVideoId="RL" onclick="toggleMute(this)">
       </div>
     </div>
   </div>
@@ -68,10 +68,10 @@ permalink: /taskTable/
     <h2>Sustained Attention</h2>
     <div class="container">
       <div class="navi">
-        <video id="SA" src="../Video/SA.mp4" autoplay muted loop preload></video>
+        <video id="RL" src="../Video/RL.mp4" autoplay muted loop preload></video>
       </div>
       <div class="infoi">
-        <img src="../volumeOff.png" controlledVideoId="SA" onclick="toggleMute(this)">
+        <img src="../volumeOff.png" controlledVideoId="RL" onclick="toggleMute(this)">
       </div>
     </div>
   </div>
