@@ -78,6 +78,16 @@ permalink: /taskTable/
 </div>
 <div class="flex-grid">
   <div class="col">
+    <h2>Gaze Following</h2>
+    <video id="GDP" src="../Video/GDP.mp4" autoplay muted loop preload></video>
+  </div>
+  <div class="col">
+    <h2>Inferring Desire</h2>
+    <video id="UD" src="../Video/UD.mp4" autoplay muted loop preload></video>
+  </div>
+</div>
+<div class="flex-grid">
+  <div class="col">
     <h2>Novelty/Familiarity</h2>
     <video id="NF" src="../Video/NF.mp4" autoplay muted loop preload></video>
   </div>
