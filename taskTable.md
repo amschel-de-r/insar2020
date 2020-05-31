@@ -7,13 +7,13 @@ permalink: /taskTable/
 
 <div class="FlexContainer">
   <div class="FlexContainerCol">
-    <h2>Gaze Following</h2>
+    <h3>Gaze Following</h3>
     <div class="FlexContainer">
       <video id="GDP" src="../Video/GDP.mp4" autoplay muted loop preload></video>
     </div>
   </div>
   <div class="FlexContainerCol">
-    <h2>Inferring Desire</h2>
+    <h3>Inferring Desire</h3>
     <div class="FlexContainer">
       <video id="UD" src="../Video/UD.mp4" autoplay muted loop preload></video>
     </div>
@@ -21,13 +21,13 @@ permalink: /taskTable/
 </div>
 <div class="FlexContainer">
   <div class="FlexContainerCol">
-    <h2>False Belief</h2>
+    <h3>False Belief</h3>
     <div class="FlexContainer">
       <video id="FB" src="../Video/FB.mp4" controls preload></video>
     </div>
   </div>
   <div class="FlexContainerCol">
-    <h2>False Belief Word Learning</h2>
+    <h3>False Belief Word Learning</h3>
     <div class="FlexContainer">
       <video id="FBW" src="../Video/FBW.mp4" controls preload></video>
     </div>
@@ -35,7 +35,7 @@ permalink: /taskTable/
 </div>
 <div class="FlexContainer">
   <div class="FlexContainerCol">
-    <h2>Reinforcement Learning</h2>
+    <h3>Reinforcement Learning</h3>
     <div class="FlexContainer">
       <video id="RL" src="../Video/RL.mp4" autoplay muted loop preload></video>
     	<div class="Overlay">
@@ -44,7 +44,7 @@ permalink: /taskTable/
     </div>
   </div>
   <div class="FlexContainerCol">
-    <h2>Social Reinforcement Learning</h2>
+    <h3>Social Reinforcement Learning</h3>
     <div class="FlexContainer">
       <video id="RLS" src="../Video/RLS.mp4" autoplay muted loop preload></video>
     </div>
@@ -52,13 +52,13 @@ permalink: /taskTable/
 </div>
 <div class="FlexContainer">
   <div class="FlexContainerCol">
-    <h2>Emotion Recognition</h2>
+    <h3>Emotion Recognition</h3>
     <div class="FlexContainer">
       <video id="ER" src="../Video/ER.mp4" autoplay muted loop preload></video>
     </div>
   </div>
   <div class="FlexContainerCol">
-    <h2>Attentional Bias</h2>
+    <h3>Attentional Bias</h3>
     <div class="FlexContainer">
       <video id="EDP" src="../Video/EDP.mp4" autoplay muted loop preload></video>
     </div>
@@ -66,7 +66,7 @@ permalink: /taskTable/
 </div>
 <div class="FlexContainer">
   <div class="FlexContainerCol">
-    <h2>Inhibitory Control</h2>
+    <h3>Inhibitory Control</h3>
     <div class="FlexContainer">
       <video id="GNG" src="../Video/GNG.mp4" autoplay muted loop preload></video>
     	<div class="Overlay">
@@ -75,7 +75,7 @@ permalink: /taskTable/
     </div>
   </div>
   <div class="FlexContainerCol">
-    <h2>Sustained Attention</h2>
+    <h3>Sustained Attention</h3>
     <div class="FlexContainer">
       <video id="SA" src="../Video/SA.mp4" autoplay muted loop preload></video>
     	<div class="Overlay">
@@ -86,13 +86,13 @@ permalink: /taskTable/
 </div>
 <div class="FlexContainer">
   <div class="FlexContainerCol">
-    <h2>Novelty Familiarity</h2>
+    <h3>Novelty/Familiarity</h3>
     <div class="FlexContainer">
       <video id="NF" src="../Video/NF.mp4" autoplay muted loop preload></video>
     </div>
   </div>
   <div class="FlexContainerCol">
-    <h2>Visual Decision-Making Under Uncertainty</h2>
+    <h3>Visual Decision-Making Under Uncertainty</h3>
     <div class="FlexContainer">
       <video id="MC" src="../Video/MC.mp4" autoplay muted loop preload></video>
     </div>
@@ -100,13 +100,13 @@ permalink: /taskTable/
 </div>
 <div class="FlexContainer">
   <div class="FlexContainerCol">
-    <h2>Kittens</h2>
+    <h3>Kittens</h3>
     <div class="FlexContainer">
       <video id="EDP" src="../Test.mp4" autoplay muted loop preload></video>
     </div>
   </div>
   <div class="FlexContainerCol">
-    <h2>Birds</h2>
+    <h3>Birds</32>
     <div class="FlexContainer">
       <video id="EDP" src="../Test.mp4" autoplay muted loop preload></video>
     </div>
