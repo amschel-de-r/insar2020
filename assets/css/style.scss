@@ -4,8 +4,8 @@
 @import "{{ site.theme }}";
 
 // Breakpoints
-$large-breakpoint: 48em !default;
-$medium-breakpoint: 36em !default;
+$large-breakpoint: 24em !default;
+$medium-breakpoint: 18em !default;
 
 .FlexContainerCol{
   position:relative;
@@ -60,7 +60,7 @@ video {
   flex: 1;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .FlexContainer {
     display: block;
     .FlexContainerCol {
