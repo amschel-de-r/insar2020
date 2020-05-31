@@ -2,50 +2,33 @@
 permalink: /index.html
 ---
 
-## Example Videos
+### Bayesian Optimisation
 
-Autoplay silent video
+What is bayesian optimisation?
 
-<video autoplay muted loop width="320">
+Gif of 1D optimisation
 
-    <source src="Video/Test.webm"
-            type="video/webm">
+refs to learn more
 
-    <source src="Video/Test.mp4"
-            type="video/mp4">
+### How do we use BO?
 
-    Sorry, your browser doesn't support embedded videos.
-</video>
+In GNG (and SA) task, speed affects how well we capture inhibition
+| Example of too fast | Example of too slow | Example of just right |
+Add graphs from sample data
 
-Videos that can be muted
+But this optimum speed will be different for different people - how do we find it quickly?
 
-<div class="row">
-  <div class="column">
-    <video id="myVideo" src="TestWithSound.mp4" width="320" height="200" autoplay muted loop preload></video>
-  </div>
-  <div class="column">
-    <img src="volumeOff.png" controlledVideoId="myVideo" onclick="toggleMute(this)">
-  </div>
-</div>
+By using a warm-up task that serves to familiarise with tablet, we can test how well an individual can click items moving across screen at variable speeds
+If we code speed and hit-rate together as one variable, we can optimise to find the fastest speed that an individual can still react to
 
-<div class="row">
-  <div class="column">
-    <video id="myVideo2" src="TestWithSound.mp4" width="320" height="200" autoplay muted loop preload></video>
-  </div>
-  <div class="column">
-    <img src="volumeOff.png" controlledVideoId="myVideo2" onclick="toggleMute(this)">
-  </div>
-</div>
+Example of BO with graph annotated?
 
-<script>
-var vid = document.getElementById("myVideo");
-function toggleMute(el) { 
-    var vidId = el.getAttribute('controlledVideoId');
-    var vid = document.getElementById(vidId);
-    vid.muted = !vid.muted;
-    el.src = vid.muted ? "volumeOff.png" : "volumeOn.png";
-}
-</script>
+Want to have a go for yourself? Try out below
+N.B. optimisation still undergoing fine-tuning, and may as of yet not adapt perfectly to all individuals. Speed range may also not contain optimal speed for all individuals
+
+(For now, game as is)
+(Game, for 50 trials, at end shows optimised speed in mini-camera with button to replay, or play GNG at this speed. At end of GNG, show hit rate and error rate)
+
 
 ## Example Game
 
