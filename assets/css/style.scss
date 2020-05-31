@@ -68,6 +68,9 @@ video {
     display: block;
     width: 100%;
   }
+  .FlexContainerCol:not(:last-child) {
+    padding-right: 0px;
+  }
 }
 
 * {
