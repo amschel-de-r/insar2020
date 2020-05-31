@@ -62,8 +62,11 @@ video {
 
 @media (max-width: 800px) {
   .FlexContainer,
-  .FlexContainerCol {
+  .FlexContainerCol,
+  .FlexContainer > div,
+  .FlexContainer > div > div{
     display: block;
+    width: 100%;
   }
 }
 
