@@ -19,6 +19,7 @@ permalink: /taskTable/
     </div>
   </div>
 </div>
+
 <div class="FlexContainer">
   <div class="FlexContainerCol">
     <h3>False Belief</h3>
@@ -33,6 +34,7 @@ permalink: /taskTable/
     </div>
   </div>
 </div>
+
 <div class="FlexContainer">
   <div class="FlexContainerCol">
     <h3>Reinforcement Learning</h3>
@@ -50,6 +52,7 @@ permalink: /taskTable/
     </div>
   </div>
 </div>
+
 <div class="FlexContainer">
   <div class="FlexContainerCol">
     <h3>Emotion Recognition</h3>
@@ -64,6 +67,7 @@ permalink: /taskTable/
     </div>
   </div>
 </div>
+
 <div class="FlexContainer">
   <div class="FlexContainerCol">
     <h3>Inhibitory Control</h3>
@@ -84,6 +88,7 @@ permalink: /taskTable/
     </div>
   </div>
 </div>
+
 <div class="FlexContainer">
   <div class="FlexContainerCol">
     <h3>Novelty/Familiarity</h3>
@@ -98,6 +103,7 @@ permalink: /taskTable/
     </div>
   </div>
 </div>
+
 <div class="FlexContainer">
   <div class="FlexContainerCol">
     <h3>Kittens</h3>
@@ -106,7 +112,7 @@ permalink: /taskTable/
     </div>
   </div>
   <div class="FlexContainerCol">
-    <h3>Birds</3>
+    <h3>Birds</h3>
     <div class="FlexContainer">
       <video id="EDP" src="../Test.mp4" autoplay muted loop preload></video>
     </div>
