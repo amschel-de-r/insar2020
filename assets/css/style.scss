@@ -61,8 +61,9 @@ video {
 }
 
 @media (max-width: 800px) {
-  .FlexContainer {
-    flex-direction: column;
+  .FlexContainer,
+  .FlexContainerCol {
+    display: block;
   }
 }
 
