@@ -106,15 +106,15 @@ permalink: /taskTable/
 
 <div class="FlexContainer">
   <div class="FlexContainerCol">
-    <h3>Kittens</h3>
+    <h3>Tactile Processing</h3>
     <div class="FlexContainer">
-      <video id="EDP" src="../Test.mp4" autoplay muted loop preload></video>
+      <video id="EDP" src="../Video/Kitten.mp4" autoplay muted loop preload></video>
     </div>
   </div>
   <div class="FlexContainerCol">
-    <h3>Birds</h3>
+    <h3>Auditory Processing</h3>
     <div class="FlexContainer">
-      <video id="EDP" src="../Test.mp4" autoplay muted loop preload></video>
+      <video id="EDP" src="../Video/Birds.mp4" autoplay muted loop preload></video>
     </div>
   </div>
 </div>
