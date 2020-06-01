@@ -18,7 +18,7 @@
 }
 
 .FlexContainerCol:not(:last-child) {
-  padding-right: 4rem;
+  padding-right: 6rem;
 }
     	
 .FlexContainer{
@@ -26,7 +26,6 @@
   display: flex;
   flex-direction: row;
   flex-grow: 1;
-  padding-bottom: 4rem;
 }
     	
 .FlexContainer > div{
