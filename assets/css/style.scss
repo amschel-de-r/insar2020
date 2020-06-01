@@ -3,9 +3,12 @@
 
 @import "{{ site.theme }}";
 
-// Breakpoints
-$large-breakpoint: 24em !default;
-$medium-breakpoint: 18em !default;
+.main-content {
+
+  @include large {
+    max-width: 80rem;
+  }
+}
 
 .FlexContainerCol{
   position:relative;
@@ -29,13 +32,11 @@ $medium-breakpoint: 18em !default;
   flex-grow: 1;
   flex-basis: 0;
   display: flex;
-  margin: 5px;
 }
     		
 .FlexContainer > div > div{
   flex-grow: 1;
   flex-basis: 0;
-  margin: 3px;
   display:flex;
   flex-direction: row;
 }
@@ -55,11 +56,6 @@ video {
   height: auto;
 }
 
-
-.flex-grid .col {
-  flex: 1;
-}
-
 @media (max-width: 800px) {
   .FlexContainer,
   .FlexContainerCol,
@@ -71,18 +67,4 @@ video {
   .FlexContainerCol:not(:last-child) {
     padding-right: 0px;
   }
-}
-
-
-
-.flex-grid { 
-  margin: 0 0 40px 0;
-}
-
-.col {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.col:not(:last-child) {
-  padding-right: 60px;
 }
