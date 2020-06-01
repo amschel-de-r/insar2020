@@ -3,7 +3,7 @@ title: "Tasks Table"
 permalink: /taskTable/
 ---
 
-# Task Clips
+<h1 padding-left="-4rem" padding-right="-4rem">Task Clips</h1>
 
 <div class="FlexContainer">
   <div class="FlexContainerCol">
