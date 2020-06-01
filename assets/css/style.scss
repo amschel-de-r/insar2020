@@ -27,6 +27,10 @@
   flex-direction: row;
   flex-grow: 1;
 }
+
+.main-content > .FlexContainer {
+  padding-bottom: 6rem;
+}
     	
 .FlexContainer > div{
   flex-grow: 1;
