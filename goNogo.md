@@ -10,9 +10,9 @@ Bubble speed is varied, with response used to optimise the speed of the subseque
 <div class="FlexContainer">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
-      <video id="GDP" src="../Video/BOBubbles.mp4" autoplay muted loop preload></video>
+      <video id="BO" src="../Video/BOBubbles.mp4" autoplay muted loop preload></video>
       <div class="Overlay">
-        <img src="../volumeOff.png" controlledVideoId="RL" onclick="toggleMute(this)">
+        <img src="../volumeOff.png" controlledVideoId="BO" onclick="toggleMute(this)">
       </div>
     </div>
   </div>
@@ -23,7 +23,7 @@ In the cartoon, the child is introduced to and familiarised with the task stimul
 <div class="FlexContainer">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
-      <video id="GDP" src="../Video/GDP.mp4" autoplay muted loop preload></video>
+      <video id="Anim" src="../Video/Animation.mp4" autoplay muted loop preload></video>
     </div>
   </div>
 </div>
@@ -32,7 +32,10 @@ The stimuli are introduced with symbols, a character (the scientist) and the par
 <div class="FlexContainer">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
-      <video id="GDP" src="../Video/GDP.mp4" autoplay muted loop preload></video>
+      <video id="CatDem" src="../Video/CategDemo.mp4" autoplay muted loop preload></video>
+      <div class="Overlay">
+        <img src="../volumeOff.png" controlledVideoId="CatDem" onclick="toggleMute(this)">
+      </div>
     </div>
   </div>
 </div>
@@ -41,7 +44,10 @@ This pre-test determines base ability to distinguish the task stimuli and click 
 <div class="FlexContainer">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
-      <video id="GDP" src="../Video/GDP.mp4" autoplay muted loop preload></video>
+      <video id="Categ" src="../Video/Categ.mp4" autoplay muted loop preload></video>
+      <div class="Overlay">
+        <img src="../volumeOff.png" controlledVideoId="Categ" onclick="toggleMute(this)">
+      </div>
     </div>
   </div>
 </div>
@@ -50,7 +56,10 @@ The scientist and parent both demonstrate how to play the game, this time with s
 <div class="FlexContainer">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
-      <video id="GDP" src="../Video/GDP.mp4" autoplay muted loop preload></video>
+      <video id="Demo" src="../Video/Demo.mp4" autoplay muted loop preload></video>
+      <div class="Overlay">
+        <img src="../volumeOff.png" controlledVideoId="Demo" onclick="toggleMute(this)">
+      </div>
     </div>
   </div>
 </div>
@@ -59,7 +68,10 @@ The child is given a 10-trial practice, which can be repeated
 <div class="FlexContainer">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
-      <video id="GDP" src="../Video/GDP.mp4" autoplay muted loop preload></video>
+      <video id="GNG" src="../Video/GNG.mp4" autoplay muted loop preload></video>
+      <div class="Overlay">
+        <img src="../volumeOff.png" controlledVideoId="GNG" onclick="toggleMute(this)">
+      </div>
     </div>
   </div>
 </div>
@@ -68,7 +80,10 @@ Consisting of 40 trials at optimised speed, the main task measures ability to in
 <div class="FlexContainer">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
-      <video id="GDP" src="../Video/GDP.mp4" autoplay muted loop preload></video>
+      <video id="GNG2" src="../Video/GNG.mp4" autoplay muted loop preload></video>
+      <div class="Overlay">
+        <img src="../volumeOff.png" controlledVideoId="GNG2" onclick="toggleMute(this)">
+      </div>
     </div>
   </div>
 </div>
