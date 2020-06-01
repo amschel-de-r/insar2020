@@ -6,7 +6,7 @@ permalink: /gonogo/
 # Go-NoGo Task Breakdown
 
 ## Pre-test: Motor Response
-Bubble speed is varied, with response used to optimise the speed of the subsequent Go-NoGo task. [Click here](../) to learn more about the Bayesian Optimisation process, including a playable version of the game
+Bubble speed is varied, with response used to optimise the speed of the subsequent Go-NoGo task. [Click here](../bayesopt) to learn more about the Bayesian Optimisation process, including a playable version of the game
 <div class="FlexContainer">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
