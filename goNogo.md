@@ -3,18 +3,21 @@ title: "Go-NoGo \"Catch the Puppy\" task"
 permalink: /gonogo/
 ---
 
-# Task Breakdown
-N.B. correct videos not yet added
+# Go-NoGo Task Breakdown
+
 ## Pre-test: Motor Response
-Bubble speed is varied, with response used to optimise the speed of the subsequent Go-NoGo task
+Bubble speed is varied, with response used to optimise the speed of the subsequent Go-NoGo task. [Click here](../) to learn more about the Bayesian Optimisation process, including a playable version of the game
 <div class="FlexContainer">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
-      <video id="GDP" src="../Video/GDP.mp4" autoplay muted loop preload></video>
+      <video id="GDP" src="../Video/BOBubbles.mp4" autoplay muted loop preload></video>
+      <div class="Overlay">
+        <img src="../volumeOff.png" controlledVideoId="RL" onclick="toggleMute(this)">
+      </div>
     </div>
   </div>
 </div>
-[Click here](../) to learn more about the Bayesian Optimisation process, including a playable version of the game
+
 ## Animated Cartoon
 In the cartoon, the child is introduced to and familiarised with the task stimuli (puppy and cat), and given a sense of which is to be touched and which avoided
 <div class="FlexContainer">
