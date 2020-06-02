@@ -2,5 +2,6 @@ theme: jekyll-theme-cayman
 title: Pip and the Brain Explorers
 description: An adaptive touch-screen battery to assess preschoolers with Autism Spectrum Disorder across six behavioural domains
 show_downloads: false
+baseurl: /insar2020
 github:
   is_project_page: false
