@@ -3,6 +3,9 @@ title: "Tasks Table"
 permalink: /taskTable/
 ---
 
+<a href="../pipsWorldEposter.pdf" target="_blank">Link to poster (higher quality)</a>
+[Link to poster (higher quality)](../pipsWorldEposter.pdf)
+
 <h1 padding-left="-4rem" padding-right="-4rem">Task Clips</h1>
 
 <div class="FlexContainer">
