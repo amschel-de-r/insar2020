@@ -47,7 +47,7 @@ If we code (speed x hit-rate) as one variable, we can optimise to find the faste
 ## Want to have a go for yourself? Try out below
 N.B. optimisation still undergoing fine-tuning, and may as of yet not adapt perfectly to all individuals. Speed range may also not contain optimal speed for all individuals
 
-<div>
+<div width="100%">
   <iframe src="Bubbles/index.html" position="relative" width="100vw" height="62.5vw">
 </div>
   
