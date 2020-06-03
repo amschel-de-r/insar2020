@@ -5,7 +5,7 @@ permalink: /index.html
 ## What is bayesian optimisation?
 Bayesian optimization is a powerful iterative method to efficiently obtain the extrema of target functions that are expensive to evaluate ([Mockus, 1994](https://www.nature.com/articles/s41467-018-03657-3.pdf)). The approach employs a Bayesian statistical model to estimate the target function f(x) according to its posterior distribution, and an acquisition function that proposes the point in the space to be sampled in the next iteration.
 
-Gif of 1D optimisation
+![Alt Text](bayesopt.gif?raw=true)
 
 See also [Brochu et al., 2010](https://arxiv.org/abs/1012.2599) and [Agnihotri & Batra, 2020](https://distill.pub/2020/bayesian-optimization/) for more thorough explanations.
 
@@ -16,13 +16,13 @@ In our "Catch the Puppy" task, speed affects how valid the task is as a measure 
   <div class="FlexContainerCol">
     <h3>Too slow and the participant has no time pressure and plenty of time to prepare inhibition</h3>
     <div class="FlexContainer">
-      <video id="BAO" src="Video/BOBubbles.mp4" autoplay muted loop preload></video>
+      <video id="GNGSlow" src="Video/GNGSlow.mp4" autoplay muted loop preload></video>
     </div>
   </div>
   <div class="FlexContainerCol">
     <h3>Too fast and the participant is unable to even hit the "Go" trials</h3>
     <div class="FlexContainer">
-      <video id="BAO" src="Video/BOBubbles.mp4" autoplay muted loop preload></video>
+      <video id="GNGFast" src="Video/GNGFast.mp4" autoplay muted loop preload></video>
     </div>
   </div>
 </div>
@@ -47,7 +47,7 @@ If we code (speed x hit-rate) as one variable, we can optimise to find the faste
 ## Want to have a go for yourself? Try out below
 N.B. optimisation still undergoing fine-tuning, and may as of yet not adapt perfectly to all individuals. Speed range may also not contain optimal speed for all individuals
 
-<div width="100%">
+<div class="FlexContainer">
   <iframe src="Bubbles/index.html" position="relative" width="100vw" height="62.5vw">
 </div>
   
