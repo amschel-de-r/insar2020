@@ -16,13 +16,13 @@ In our "Catch the Puppy" task, speed affects how valid the task is as a measure 
   <div class="FlexContainerCol">
     <h3>Too slow and the participant has no time pressure and plenty of time to prepare inhibition</h3>
     <div class="FlexContainer">
-      <video id="BAO" src="../Video/BOBubbles.mp4" autoplay muted loop preload></video>
+      <video id="BAO" src="Video/BOBubbles.mp4" autoplay muted loop preload></video>
     </div>
   </div>
   <div class="FlexContainerCol">
     <h3>Too fast and the participant is unable to even hit the "Go" trials</h3>
     <div class="FlexContainer">
-      <video id="BAO" src="../Video/BOBubbles.mp4" autoplay muted loop preload></video>
+      <video id="BAO" src="Video/BOBubbles.mp4" autoplay muted loop preload></video>
     </div>
   </div>
 </div>
@@ -36,9 +36,9 @@ If we code (speed x hit-rate) as one variable, we can optimise to find the faste
 <div class="FlexContainer">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
-      <video id="BAO" src="../Video/BOBubbles.mp4" autoplay muted loop preload></video>
+      <video id="BAO" src="Video/BOBubbles.mp4" autoplay muted loop preload></video>
       <div class="Overlay">
-        <img src="../volumeOff.png" controlledVideoId="BAO" onclick="toggleMute(this)">
+        <img src="volumeOff.png" controlledVideoId="BAO" onclick="toggleMute(this)">
       </div>
     </div>
   </div>
@@ -47,4 +47,14 @@ If we code (speed x hit-rate) as one variable, we can optimise to find the faste
 ## Want to have a go for yourself? Try out below
 N.B. optimisation still undergoing fine-tuning, and may as of yet not adapt perfectly to all individuals. Speed range may also not contain optimal speed for all individuals
 
-<iframe src="Bubbles/index.html" style="width:100%; height:auto">
+<iframe src="Bubbles/index.html" style="width:100%; height:100%">
+  
+<script>
+var vid = document.getElementById("myVideo");
+function toggleMute(el) { 
+    var vidId = el.getAttribute('controlledVideoId');
+    var vid = document.getElementById(vidId);
+    vid.muted = !vid.muted;
+    el.src = vid.muted ? "../volumeOff.png" : "../volumeOn.png";
+}
+</script>
