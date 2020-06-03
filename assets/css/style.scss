@@ -3,11 +3,6 @@
 
 @import "{{ site.theme }}";
 
-.page-header {
-  position: fixed;
-  transition: 0.2s;
-}
-
 .main-content {
 
   @include large {
