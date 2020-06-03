@@ -14,7 +14,7 @@ See also [Brochu et al., 2010](https://arxiv.org/abs/1012.2599) and [Agnihotri &
 In our "Catch the Puppy" task, speed affects how valid the task is as a measure of inhibition
 <div class="FlexContainer">
   <div class="FlexContainerCol">
-    <h3>Too slow and the participant has no time pressure and plenty of time to prepare inhibition</h3>
+    <h3>Too slow and the participant has excessive time to prepare inhibition</h3>
     <div class="FlexContainer">
       <video id="GNGSlow" src="Video/GNGSlow.mp4" autoplay muted loop preload></video>
     </div>
