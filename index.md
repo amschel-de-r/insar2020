@@ -16,13 +16,13 @@ In our "Catch the Puppy" task, speed affects how valid the task is as a measure 
   <div class="FlexContainerCol">
     <h3>Too slow and the participant has excessive time to prepare inhibition</h3>
     <div class="FlexContainer">
-      <video id="GNGSlow" src="Video/GNGSlow.mp4" autoplay muted loop preload></video>
+      <video id="GNGSlow" src="Video/GNGslow.mp4" autoplay muted loop preload></video>
     </div>
   </div>
   <div class="FlexContainerCol">
     <h3>Too fast and the participant is unable to even hit the "Go" trials</h3>
     <div class="FlexContainer">
-      <video id="GNGFast" src="Video/GNGFast.mp4" autoplay muted loop preload></video>
+      <video id="GNGFast" src="Video/GNGfast.mp4" autoplay muted loop preload></video>
     </div>
   </div>
 </div>
