@@ -38,9 +38,6 @@ If we code (speed x hit-rate) as one variable, we can optimise to find the faste
   <div class="FlexContainerCol">
     <div class="FlexContainer">
       <video id="BAO" src="Video/BOBubbles.mp4" autoplay muted loop preload></video>
-      <div class="Overlay">
-        <img src="volumeOff.png" controlledVideoId="BAO" onclick="toggleMute(this)">
-      </div>
     </div>
   </div>
 </div>
