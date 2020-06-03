@@ -11,7 +11,7 @@ Bubble speed is varied, with response used to optimise the speed of the subseque
 <div class="FlexContainer" padding-left="4rem" padding-right="4rem">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
-      <video id="BO" src="../Test.mp4" autoplay muted loop preload></video>
+      <video id="BO" src="../Video/BOBubblesShort.mp4" autoplay muted loop preload></video>
     </div>
   </div>
 </div>
