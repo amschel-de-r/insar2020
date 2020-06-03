@@ -50,7 +50,7 @@ N.B. optimisation still undergoing fine-tuning, and may as of yet not adapt perf
 
 <div class="FlexContainer">
   <div class="FlexContainerCol">
-    <iframe src="Bubbles/index.html" width="100%" height="62.5%">
+    <iframe src="Bubbles/index.html" position="relative" width="100%" height="62.5vw">
   </div>
 </div>
   
