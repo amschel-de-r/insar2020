@@ -11,16 +11,17 @@ See also [Brochu et al., 2010](https://arxiv.org/abs/1012.2599) and [Agnihotri &
 
 ## How do we use BO?
 
-In our "Catch the Puppy" task, speed affects how valid the task is as a measure of inhibition
+In our "Catch the Puppy" task, speed affects how valid the task is as a measure of inhibition.
+_(Exaggerated speeds used for illustration)_
 <div class="FlexContainer">
   <div class="FlexContainerCol">
-    <h3>Too slow and the participant has excessive time to prepare inhibition</h3>
+    <div>Too slow and the participant has excessive time to prepare inhibition</div>
     <div class="FlexContainer">
       <video id="GNGSlow" src="Video/GNGslow.mp4" autoplay muted loop preload></video>
     </div>
   </div>
   <div class="FlexContainerCol">
-    <h3>Too fast and the participant is unable to even hit the "Go" trials</h3>
+    <div>Too fast and the participant is unable to even hit the "Go" trials</div>
     <div class="FlexContainer">
       <video id="GNGFast" src="Video/GNGfast.mp4" autoplay muted loop preload></video>
     </div>
@@ -48,7 +49,9 @@ If we code (speed x hit-rate) as one variable, we can optimise to find the faste
 N.B. optimisation still undergoing fine-tuning, and may as of yet not adapt perfectly to all individuals. Speed range may also not contain optimal speed for all individuals
 
 <div class="FlexContainer">
-  <iframe src="Bubbles/index.html" width="100%" height="62.5%">
+  <div class="FlexContainerCol">
+    <iframe src="Bubbles/index.html" width="100%" height="62.5%">
+  </div>
 </div>
   
 <script>
