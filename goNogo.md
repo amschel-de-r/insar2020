@@ -2,12 +2,13 @@
 title: "Go-NoGo \"Catch the Puppy\" task"
 permalink: /gonogo/
 ---
+<a href="../pipsWorldEposter.pdf" target="_blank">Link to poster (higher quality)</a>
 
 # Go-NoGo Task Breakdown
 
 ## Pre-test: Motor Response
 Bubble speed is varied, with response used to optimise the speed of the subsequent Go-NoGo task. [Click here](../bayesopt) to learn more about the Bayesian Optimisation process, including a playable version of the game
-<div class="FlexContainer">
+<div class="FlexContainer" padding-left="4rem" padding-right="4rem">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
       <video id="BO" src="../Video/BOBubbles.mp4" autoplay muted loop preload></video>
@@ -20,7 +21,7 @@ Bubble speed is varied, with response used to optimise the speed of the subseque
 
 ## Animated Cartoon
 In the cartoon, the child is introduced to and familiarised with the task stimuli (puppy and cat), and given a sense of which is to be touched and which avoided
-<div class="FlexContainer">
+<div class="FlexContainer" padding-left="4rem" padding-right="4rem">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
       <video id="Anim" src="../Video/Animation.mp4" autoplay muted loop preload></video>
@@ -29,7 +30,7 @@ In the cartoon, the child is introduced to and familiarised with the task stimul
 </div>
 ## Categorisation Demo
 The stimuli are introduced with symbols, a character (the scientist) and the parent both demonstrate to click the puppy
-<div class="FlexContainer">
+<div class="FlexContainer" padding-left="4rem" padding-right="4rem">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
       <video id="CatDem" src="../Video/CategDemo.mp4" autoplay muted loop preload></video>
@@ -41,7 +42,7 @@ The stimuli are introduced with symbols, a character (the scientist) and the par
 </div>
 ## Pre-test: Categorisation
 This pre-test determines base ability to distinguish the task stimuli and click the correct one
-<div class="FlexContainer">
+<div class="FlexContainer" padding-left="4rem" padding-right="4rem">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
       <video id="Categ" src="../Video/Categ.mp4" autoplay muted loop preload></video>
@@ -53,7 +54,7 @@ This pre-test determines base ability to distinguish the task stimuli and click 
 </div>
 ## Task Demo
 The scientist and parent both demonstrate how to play the game, this time with stimuli moving across the screen
-<div class="FlexContainer">
+<div class="FlexContainer" padding-left="4rem" padding-right="4rem">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
       <video id="Demo" src="../Video/Demo.mp4" autoplay muted loop preload></video>
@@ -65,7 +66,7 @@ The scientist and parent both demonstrate how to play the game, this time with s
 </div>
 ## Task Practice
 The child is given a 10-trial practice, which can be repeated
-<div class="FlexContainer">
+<div class="FlexContainer" padding-left="4rem" padding-right="4rem">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
       <video id="GNG" src="../Video/GNG.mp4" autoplay muted loop preload></video>
@@ -77,7 +78,7 @@ The child is given a 10-trial practice, which can be repeated
 </div>
 ## Main Task
 Consisting of 40 trials at optimised speed, the main task measures ability to inhibit motor response. If attention is lost and go-trials are missed, the puppy barks to re-engage the child.
-<div class="FlexContainer">
+<div class="FlexContainer" padding-left="4rem" padding-right="4rem">
   <div class="FlexContainerCol">
     <div class="FlexContainer">
       <video id="GNG2" src="../Video/GNG.mp4" autoplay muted loop preload></video>
