@@ -57,13 +57,13 @@ permalink: /taskTable/
 
 <div class="FlexContainer">
   <div class="FlexContainerCol">
-    <h3>Emotion Recognition</h3>
+    <h3>Emotion Recognition (beta)</h3>
     <div class="FlexContainer">
       <video id="ER" src="../Video/ER.mp4" autoplay muted loop preload></video>
     </div>
   </div>
   <div class="FlexContainerCol">
-    <h3>Attentional Bias</h3>
+    <h3>Attentional Bias (beta)</h3>
     <div class="FlexContainer">
       <video id="EDP" src="../Video/EDP.mp4" autoplay muted loop preload></video>
     </div>
